@@ -48,6 +48,18 @@
         quick-tap-ms = <130>;
     };
 
+    layer_quick_tab: layer_quick_tab {
+        compatible = "zmk,behavior-hold-tap";
+        label = "LAYER_QUICK_TAB";
+        bindings = <&mo>, <&kp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <300>;
+        flavor = "hold-preferred";
+        quick-tap-ms = <130>;
+        require-prior-idle-ms = <125>;
+    };
+
     behaviors {
     };
 
@@ -75,11 +87,11 @@
 
         NormalLayer {
             bindings = <
-&kp ESC     &kp N1                       &kp N2                   &kp N3                &kp N4                  &kp N5                     &mmv MOVE_Y(-200)  &kp N6                 &kp N7                     &kp N8                    &kp N9                            &kp N0                             &trans
-&kp TAB     &homerow_mods EXCLAMATION Q  &homerow_mods AT_SIGN W  &homerow_mods HASH E  &homerow_mods DOLLAR R  &homerow_mods PERCENT T    &mmv MOVE_Y(200)   &homerow_mods CARET Y  &homerow_mods AMPERSAND U  &homerow_mods ASTERISK I  &homerow_mods LEFT_PARENTHESIS O  &homerow_mods RIGHT_PARENTHESIS P  &kp BSLH
-&kp LCTRL   &kp A                        &kp S                    &kp D                 &kp F                   &kp G                      &mmv MOVE_X(-200)  &kp H                  &kp J                      &kp K                     &kp L                             &kp SEMI                           &kp APOS
-&kp LSHFT   &kp Z                        &kp X                    &kp C                 &kp V                   &kp B                      &mmv MOVE_X(200)   &kp N                  &kp M                      &kp COMMA                 &kp DOT                           &kp FSLH                           &kp BACKSPACE
-&kp C_MUTE  &kp LCTRL                    &kp LEFT_GUI             &kp LEFT_ALT          &kp SPACE               &lt 3 ESC                  &mkp LCLK          &lt 3 BACKSPACE        &kp ENTER                  &kp RALT                  &kp RIGHT_SHIFT                   &kp DELETE
+&kp ESC     &kp N1                       &kp N2                   &kp N3                &kp N4                  &kp N5                     &mmv MOVE_Y(-200)  &kp N6                        &kp N7                     &kp N8                    &kp N9                            &kp N0                             &trans
+&kp TAB     &homerow_mods EXCLAMATION Q  &homerow_mods AT_SIGN W  &homerow_mods HASH E  &homerow_mods DOLLAR R  &homerow_mods PERCENT T    &mmv MOVE_Y(200)   &homerow_mods CARET Y         &homerow_mods AMPERSAND U  &homerow_mods ASTERISK I  &homerow_mods LEFT_PARENTHESIS O  &homerow_mods RIGHT_PARENTHESIS P  &kp BSLH
+&kp LCTRL   &kp A                        &kp S                    &kp D                 &kp F                   &kp G                      &mmv MOVE_X(-200)  &kp H                         &kp J                      &kp K                     &kp L                             &homerow_mods MINUS SEMI           &homerow_mods EQUAL APOS
+&kp LSHFT   &kp Z                        &kp X                    &kp C                 &kp V                   &kp B                      &mmv MOVE_X(200)   &kp N                         &kp M                      &kp COMMA                 &kp DOT                           &homerow_mods BACKSLASH FSLH       &kp BACKSPACE
+&kp C_MUTE  &kp LCTRL                    &kp LEFT_GUI             &kp LEFT_ALT          &kp SPACE               &lt 3 ESC                  &mkp LCLK          &layer_quick_tab 3 BACKSPACE  &kp ENTER                  &kp RALT                  &kp RIGHT_SHIFT                   &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -111,11 +123,11 @@
 
         RThumbLayer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans          &trans           &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans          &trans           &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &trans     &trans  &trans  &trans  &trans    &trans  &trans          &trans          &trans           &trans  &trans  &trans
+&trans  &kp GRAVE  &trans  &trans  &trans  &trans    &trans  &trans          &trans          &trans           &trans  &trans  &trans
+&trans  &trans     &trans  &trans  &trans  &trans    &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans  &trans  &trans
+&trans  &trans     &trans  &trans  &trans  &trans    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans
+&trans  &trans     &trans  &trans  &trans  &trans    &trans  &trans          &trans          &trans           &trans  &trans
             >;
 
             display-name = "RThumbLayer";
