@@ -15,17 +15,17 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - E
-  - R
-  - T
+  - {t: Q, h: '!'}
+  - {t: W, h: '@'}
+  - {t: E, h: '#'}
+  - {t: R, h: $}
+  - {t: T, h: '%'}
   - '&mmv MOVE_Y(200)'
-  - Y
-  - U
-  - I
-  - O
-  - P
+  - {t: Y, h: ^}
+  - {t: U, h: '&'}
+  - {t: I, h: '*'}
+  - {t: O, h: (}
+  - {t: P, h: )}
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-control$$
   - A
@@ -393,3 +393,7 @@ layers:
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
+- p: [22, 23]
+  k: {t: '[', s: '{'}
+- p: [23, 24]
+  k: {t: ']', s: '}'}

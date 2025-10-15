@@ -378,26 +378,31 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">Q</text>
+<text x="0" y="24" class="key hold">!</text>
 </g>
 <g transform="translate(140, 91)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">W</text>
+<text x="0" y="24" class="key hold">@</text>
 </g>
 <g transform="translate(196, 84)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">E</text>
+<text x="0" y="24" class="key hold">#</text>
 </g>
 <g transform="translate(252, 91)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">R</text>
+<text x="0" y="24" class="key hold">$</text>
 </g>
 <g transform="translate(308, 91)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">T</text>
+<text x="0" y="24" class="key hold">%</text>
 </g>
 <g transform="translate(462, 147)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -410,26 +415,31 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">Y</text>
+<text x="0" y="24" class="key hold">^</text>
 </g>
 <g transform="translate(672, 91)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">U</text>
+<text x="0" y="24" class="key hold">&amp;</text>
 </g>
 <g transform="translate(728, 84)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">I</text>
+<text x="0" y="24" class="key hold">*</text>
 </g>
 <g transform="translate(784, 91)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">O</text>
+<text x="0" y="24" class="key hold">(</text>
 </g>
 <g transform="translate(840, 112)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">P</text>
+<text x="0" y="24" class="key hold">)</text>
 </g>
 <g transform="translate(896, 112)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -644,6 +654,16 @@ rect.held, rect.combo.held {
 <path d="M103,161 l-13,45" class="combo"/>
 <rect rx="6" ry="6" x="89" y="148" width="28" height="26" class="combo"/>
 <text x="103" y="161" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
+<text x="756" y="88" class="combo tap">[</text>
+<text x="756" y="76" class="combo shifted">{</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="798" y="89" width="28" height="26" class="combo"/>
+<text x="812" y="102" class="combo tap">]</text>
+<text x="812" y="91" class="combo shifted">}</text>
 </g>
 </g>
 </g>
@@ -982,6 +1002,16 @@ rect.held, rect.combo.held {
 <path d="M103,161 l-13,45" class="combo"/>
 <rect rx="6" ry="6" x="89" y="148" width="28" height="26" class="combo"/>
 <text x="103" y="161" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
+<text x="756" y="88" class="combo tap">[</text>
+<text x="756" y="76" class="combo shifted">{</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="798" y="89" width="28" height="26" class="combo"/>
+<text x="812" y="102" class="combo tap">]</text>
+<text x="812" y="91" class="combo shifted">}</text>
 </g>
 </g>
 </g>
@@ -1335,6 +1365,16 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="89" y="148" width="28" height="26" class="combo"/>
 <text x="103" y="161" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
+<text x="756" y="88" class="combo tap">[</text>
+<text x="756" y="76" class="combo shifted">{</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="798" y="89" width="28" height="26" class="combo"/>
+<text x="812" y="102" class="combo tap">]</text>
+<text x="812" y="91" class="combo shifted">}</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-RThumbLayer">
@@ -1662,6 +1702,16 @@ rect.held, rect.combo.held {
 <path d="M103,161 l-13,45" class="combo"/>
 <rect rx="6" ry="6" x="89" y="148" width="28" height="26" class="combo"/>
 <text x="103" y="161" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
+<text x="756" y="88" class="combo tap">[</text>
+<text x="756" y="76" class="combo shifted">{</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="798" y="89" width="28" height="26" class="combo"/>
+<text x="812" y="102" class="combo tap">]</text>
+<text x="812" y="91" class="combo shifted">}</text>
 </g>
 </g>
 </g>
@@ -2025,6 +2075,16 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="89" y="148" width="28" height="26" class="combo"/>
 <text x="103" y="161" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
+<text x="756" y="88" class="combo tap">[</text>
+<text x="756" y="76" class="combo shifted">{</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="798" y="89" width="28" height="26" class="combo"/>
+<text x="812" y="102" class="combo tap">]</text>
+<text x="812" y="91" class="combo shifted">}</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1941)" class="layer-BluetoothLayer">
@@ -2369,6 +2429,16 @@ rect.held, rect.combo.held {
 <path d="M103,161 l-13,45" class="combo"/>
 <rect rx="6" ry="6" x="89" y="148" width="28" height="26" class="combo"/>
 <text x="103" y="161" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
+<text x="756" y="88" class="combo tap">[</text>
+<text x="756" y="76" class="combo shifted">{</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="798" y="89" width="28" height="26" class="combo"/>
+<text x="812" y="102" class="combo tap">]</text>
+<text x="812" y="91" class="combo shifted">}</text>
 </g>
 </g>
 </g>
