@@ -60,6 +60,15 @@
         require-prior-idle-ms = <125>;
     };
 
+    mouse_click_key: mouse_click_key {
+        compatible = "zmk,behavior-hold-tap";
+        label = "MOUSE_CLICK_KEY";
+        bindings = <&mkp>, <&mkp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <150>;
+    };
+
     behaviors {
     };
 
@@ -101,7 +110,7 @@
 &kp TAB     &homerow_mods EXCLAMATION Q  &homerow_mods AT_SIGN W  &homerow_mods HASH E  &homerow_mods DOLLAR R  &homerow_mods PERCENT T    &mmv MOVE_Y(200)   &homerow_mods CARET Y         &homerow_mods AMPERSAND U  &homerow_mods ASTERISK I  &homerow_mods LEFT_PARENTHESIS O  &homerow_mods RIGHT_PARENTHESIS P  &kp BSLH
 &kp LCTRL   &kp A                        &kp S                    &kp D                 &kp F                   &kp G                      &mmv MOVE_X(-200)  &kp H                         &kp J                      &kp K                     &kp L                             &homerow_mods MINUS SEMI           &homerow_mods EQUAL APOS
 &kp LSHFT   &kp Z                        &kp X                    &kp C                 &kp V                   &kp B                      &mmv MOVE_X(200)   &kp N                         &kp M                      &kp COMMA                 &kp DOT                           &homerow_mods BACKSLASH FSLH       &kp BACKSPACE
-&kp C_MUTE  &kp LCTRL                    &kp LEFT_GUI             &kp LEFT_ALT          &kp SPACE               &lt 3 ESC                  &mkp LCLK          &layer_quick_tab 2 BACKSPACE  &kp ENTER                  &kp RALT                  &kp RIGHT_SHIFT                   &kp DELETE
+&kp C_MUTE  &mouse_click_key RCLK LCLK   &kp LEFT_GUI             &kp LEFT_ALT          &kp SPACE               &lt 3 ESC                  &mkp LCLK          &layer_quick_tab 2 BACKSPACE  &kp ENTER                  &kp RALT                  &kp RIGHT_SHIFT                   &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
