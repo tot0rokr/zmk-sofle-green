@@ -132,6 +132,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_X(500)   &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans             &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&knob_mouse_scroll>;
         };
 
         RThumbLayer {
