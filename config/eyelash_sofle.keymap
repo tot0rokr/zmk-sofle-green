@@ -69,6 +69,13 @@
         tapping-term-ms = <150>;
     };
 
+    knob_mouse_scroll: knob_mouse_scroll {
+        compatible = "zmk,behavior-sensor-rotate";
+        label = "KNOB_MOUSE_SCROLL";
+        #sensor-binding-cells = <0>;
+        bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+    };
+
     behaviors {
     };
 
@@ -113,7 +120,7 @@
 &kp C_MUTE  &mouse_click_key RCLK LCLK   &kp LEFT_GUI             &kp LEFT_ALT          &kp SPACE               &lt 3 ESC                  &mkp LCLK          &layer_quick_tab 2 BACKSPACE  &kp ENTER                  &kp RALT                  &kp RIGHT_SHIFT                   &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&knob_mouse_scroll>;
             display-name = "NormalLayer";
         };
 
