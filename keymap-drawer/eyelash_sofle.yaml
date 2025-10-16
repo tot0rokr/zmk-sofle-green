@@ -395,3 +395,5 @@ combos:
   k: '&soft_off'
 - p: [57, 59]
   k: {t: JoystickLayer, h: toggle}
+- p: [34, 35]
+  k: {t: '$$mdi:backspace$$', type: backspace}
