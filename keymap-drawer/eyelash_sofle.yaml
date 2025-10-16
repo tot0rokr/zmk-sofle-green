@@ -54,7 +54,7 @@ layers:
   - {t: /, h: \, s: '?'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:volume-off$$
-  - {t: '$$mdi:mouse-left-click-outline$$', h: '$$mdi:mouse-right-click-outline$$'}
+  - '&mouse_click_tab_dance'
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
