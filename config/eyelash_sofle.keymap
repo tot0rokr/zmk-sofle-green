@@ -75,6 +75,11 @@
             bindings = <&tog 1>;
             key-positions = <57 59>;
         };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <34 35>;
+        };
     };
 
     macros {
