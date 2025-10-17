@@ -89,19 +89,24 @@
     combos {
         compatible = "zmk,combos";
 
-        softoff {
+        softoff_combo {
             bindings = <&soft_off>;
             key-positions = <14 28 40>;
         };
 
-        toggle_joystick_layer {
+        toggle_joystick_layer_combo {
             bindings = <&tog 1>;
             key-positions = <57 59>;
         };
 
-        backspace {
+        backspace_combo {
             bindings = <&kp BACKSPACE>;
             key-positions = <34 35>;
+        };
+
+        toggle_function_layer_combo {
+            bindings = <&tog 4>;
+            key-positions = <44 43>;
         };
     };
 
@@ -170,7 +175,7 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_1 {
+        FunctionLayer {
             bindings = <
 &kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &trans
 &trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
@@ -179,7 +184,7 @@
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
-            display-name = "layer1";
+            display-name = "FunctionLayer";
             sensor-bindings = <&scroll_encoder>;
         };
 
