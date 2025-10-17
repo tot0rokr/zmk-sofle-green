@@ -629,10 +629,10 @@ rect.held, rect.combo.held {
 <a href="#RThumbLayer">
 <text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 60%">RThumbLay…</tspan></text>
 </a></g>
-<g transform="translate(610, 283) rotate(-30.0)" class="key backspace keypos-60">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key backspace side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-9" y="-13" height="18" width="18.0" class="key backspace tap glyph mdi:backspace"/>
+<g transform="translate(610, 283) rotate(-30.0)" class="key keypos-60">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
 </g>
 <g transform="translate(672, 259)" class="key keypos-61">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -668,6 +668,10 @@ rect.held, rect.combo.held {
 <a href="#FunctionLayer">
 <text x="352" y="289" class="combo tap layer-activator"><tspan style="font-size: 60%">FunctionL…</tspan></text>
 </a></g>
+<g class="combo enter combopos-4">
+<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="215" y="134" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-JoystickLayer">
@@ -1020,6 +1024,10 @@ rect.held, rect.combo.held {
 <a href="#FunctionLayer">
 <text x="352" y="289" class="combo tap layer-activator"><tspan style="font-size: 60%">FunctionL…</tspan></text>
 </a></g>
+<g class="combo enter combopos-4">
+<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="215" y="134" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-RThumbLayer">
@@ -1389,6 +1397,10 @@ rect.held, rect.combo.held {
 <a href="#FunctionLayer">
 <text x="352" y="289" class="combo tap layer-activator"><tspan style="font-size: 60%">FunctionL…</tspan></text>
 </a></g>
+<g class="combo enter combopos-4">
+<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="215" y="134" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-LThumbLayer">
@@ -1760,6 +1772,10 @@ rect.held, rect.combo.held {
 <a href="#FunctionLayer">
 <text x="352" y="289" class="combo tap layer-activator"><tspan style="font-size: 60%">FunctionL…</tspan></text>
 </a></g>
+<g class="combo enter combopos-4">
+<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="215" y="134" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1553)" class="layer-FunctionLayer">
@@ -2130,6 +2146,10 @@ rect.held, rect.combo.held {
 <a href="#FunctionLayer">
 <text x="352" y="289" class="combo tap layer-activator"><tspan style="font-size: 60%">FunctionL…</tspan></text>
 </a></g>
+<g class="combo enter combopos-4">
+<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="215" y="134" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1941)" class="layer-BluetoothLayer">
@@ -2489,6 +2509,10 @@ rect.held, rect.combo.held {
 <a href="#FunctionLayer">
 <text x="352" y="289" class="combo tap layer-activator"><tspan style="font-size: 60%">FunctionL…</tspan></text>
 </a></g>
+<g class="combo enter combopos-4">
+<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="215" y="134" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
+</g>
 </g>
 </g>
 </svg>
