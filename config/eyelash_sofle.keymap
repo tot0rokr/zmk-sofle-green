@@ -103,7 +103,7 @@
             key-positions = <14 28 40>;
         };
 
-        toggle_bluetooth_layer_combo {
+        momentary_bluetooth_layer_combo {
             bindings = <&mo 6>;
             key-positions = <59 60>;
         };
@@ -113,7 +113,7 @@
             key-positions = <34 35>;
         };
 
-        toggle_function_layer_combo {
+        momentary_function_layer_combo {
             bindings = <&mo 4>;
             key-positions = <57 56>;
         };
