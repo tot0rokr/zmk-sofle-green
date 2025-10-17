@@ -399,5 +399,5 @@ combos:
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [57, 56]
   k: FunctionLayer
-- p: [29, 30]
+- p: [36, 37]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
