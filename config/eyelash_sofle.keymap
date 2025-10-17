@@ -120,7 +120,7 @@
 
         enter_combo {
             bindings = <&kp ENTER>;
-            key-positions = <29 30>;
+            key-positions = <36 37>;
         };
     };
 
