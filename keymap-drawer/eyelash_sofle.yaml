@@ -260,7 +260,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  layer1:
+  FunctionLayer:
   - {t: '`', s: '~'}
   - F1
   - F2
@@ -397,3 +397,5 @@ combos:
   k: {t: JoystickLayer, h: toggle}
 - p: [34, 35]
   k: {t: '$$mdi:backspace$$', type: backspace}
+- p: [44, 43]
+  k: {t: FunctionLayer, h: toggle}

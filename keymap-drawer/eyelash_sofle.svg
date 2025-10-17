@@ -665,6 +665,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="691" y="134" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
+<a href="#FunctionLayer">
+<text x="280" y="203" class="combo tap layer-activator"><tspan style="font-size: 60%">FunctionL…</tspan></text>
+</a><text x="280" y="214" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-JoystickLayer">
@@ -1014,6 +1020,12 @@ rect.held, rect.combo.held {
 <g class="combo backspace combopos-2">
 <rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="691" y="134" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
+<a href="#FunctionLayer">
+<text x="280" y="203" class="combo tap layer-activator"><tspan style="font-size: 60%">FunctionL…</tspan></text>
+</a><text x="280" y="214" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1384,6 +1396,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="691" y="134" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
+<a href="#FunctionLayer">
+<text x="280" y="203" class="combo tap layer-activator"><tspan style="font-size: 60%">FunctionL…</tspan></text>
+</a><text x="280" y="214" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-LThumbLayer">
@@ -1753,10 +1771,16 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="691" y="134" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
+<a href="#FunctionLayer">
+<text x="280" y="203" class="combo tap layer-activator"><tspan style="font-size: 60%">FunctionL…</tspan></text>
+</a><text x="280" y="214" class="combo hold">toggle</text>
 </g>
 </g>
-<g transform="translate(40, 1553)" class="layer-layer1">
-<text x="0" y="28" class="label" id="layer1">layer1:</text>
+</g>
+<g transform="translate(40, 1553)" class="layer-FunctionLayer">
+<text x="0" y="28" class="label" id="FunctionLayer">FunctionLayer:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -2127,6 +2151,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="691" y="134" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
+<a href="#FunctionLayer">
+<text x="280" y="203" class="combo tap layer-activator"><tspan style="font-size: 60%">FunctionL…</tspan></text>
+</a><text x="280" y="214" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1941)" class="layer-BluetoothLayer">
@@ -2485,6 +2515,12 @@ rect.held, rect.combo.held {
 <g class="combo backspace combopos-2">
 <rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="691" y="134" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
+<a href="#FunctionLayer">
+<text x="280" y="203" class="combo tap layer-activator"><tspan style="font-size: 60%">FunctionL…</tspan></text>
+</a><text x="280" y="214" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
