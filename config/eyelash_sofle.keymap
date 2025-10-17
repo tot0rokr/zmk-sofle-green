@@ -122,6 +122,16 @@
             bindings = <&kp ENTER>;
             key-positions = <36 37>;
         };
+
+        backspace2_combo {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <30 29>;
+        };
+
+        enter2_combo {
+            bindings = <&kp ENTER>;
+            key-positions = <27 28>;
+        };
     };
 
     macros {
